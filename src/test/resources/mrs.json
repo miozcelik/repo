@@ -1,0 +1,934 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-22T19:43:48.860Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5996600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Register a patient variant 3",
+        "description": "",
+        "id": "openmrs-page-login-tests;register-a-patient-variant-3;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7678255600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1998900,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user creates a new patient with following data: \"John\", \"Smith\", \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Male\"",
+                  "offset": 65
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "with extra information: \"\", \"July\", 1985",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 28
+                },
+                {
+                  "val": "1985",
+                  "offset": 36
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_extra_information(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "with address: \"123 Main st\", \"Chicago\", \"IL\", \"USA\", and \"60000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123 Main st\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"60000\"",
+                  "offset": 57
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "new patient has been registered with \"John\" and \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 48
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "address of new patient is \"123 Main st\", \"Chicago\", \"IL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123 Main st\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 52
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.address_of_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T19:43:57.129Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "Register a patient variant 3",
+        "description": "",
+        "id": "openmrs-page-login-tests;register-a-patient-variant-3;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86948900,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user creates a new patient with following data: \"Priya\", \"Khan\", \"Female\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Priya\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Khan\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Female\"",
+                  "offset": 65
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "with extra information: \"17\", \"July\", 1985",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"17\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                },
+                {
+                  "val": "1985",
+                  "offset": 38
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_extra_information(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "with address: \"123 Main st\", \"Chicago\", \"IL\", \"USA\", and \"60000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123 Main st\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"60000\"",
+                  "offset": 57
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "new patient has been registered with \"Priya\" and \"Khan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Priya\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Khan\"",
+                  "offset": 49
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "address of new patient is \"123 Main st\", \"Chicago\", \"IL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123 Main st\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 52
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.address_of_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T19:43:57.256Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "Register a patient variant 3",
+        "description": "",
+        "id": "openmrs-page-login-tests;register-a-patient-variant-3;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24987200,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user creates a new patient with following data: \"John\", \"Smith\", \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Male\"",
+                  "offset": 65
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "with extra information: \"\", \"July\", 1985",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 28
+                },
+                {
+                  "val": "1985",
+                  "offset": 36
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_extra_information(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "with address: \"\", \"Chicago\", \"IL\", \"USA\", and \"60000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"60000\"",
+                  "offset": 46
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "new patient has been registered with \"John\" and \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 48
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "address of new patient is \"\", \"Chicago\", \"IL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 41
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.address_of_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T19:43:57.319Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 78,
+        "name": "Register a patient variant 3",
+        "description": "",
+        "id": "openmrs-page-login-tests;register-a-patient-variant-3;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30981400,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user creates a new patient with following data: \"Jack\", \"Green\", \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jack\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Green\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Male\"",
+                  "offset": 65
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "with extra information: \"30\", \"September\", 1964",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"30\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"September\"",
+                  "offset": 30
+                },
+                {
+                  "val": "1964",
+                  "offset": 43
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_extra_information(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "with address: \"\", \"Chicago\", \"IL\", \"USA\", and \"60000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"60000\"",
+                  "offset": 46
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "new patient has been registered with \"Jack\" and \"Green\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jack\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Green\"",
+                  "offset": 48
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "address of new patient is \"\", \"Chicago\", \"IL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 41
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.address_of_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-22T19:43:57.382Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 79,
+        "name": "Register a patient variant 3",
+        "description": "",
+        "id": "openmrs-page-login-tests;register-a-patient-variant-3;;6",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24984600,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user is logged in to demo.openmrs.org as admin",
+            "match": {
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_is_logged_in_to_demo_openmrs_org_as_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user creates a new patient with following data: \"John\", \"Smith\", \"Male\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Male\"",
+                  "offset": 65
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.user_creates_a_new_patient_with_following_data(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "with extra information: \"\", \"July\", 1985",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"July\"",
+                  "offset": 28
+                },
+                {
+                  "val": "1985",
+                  "offset": 36
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_extra_information(java.lang.String,java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "with address: \"1\", \"Chicago\", \"IL\", \"USA\", and \"60000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 14
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"USA\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"60000\"",
+                  "offset": 47
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.with_address_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "new patient has been registered with \"John\" and \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 48
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.new_patient_has_been_registered_with_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1004200,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "address of new patient is \"1\", \"Chicago\", \"IL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Chicago\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"IL\"",
+                  "offset": 42
+                }
+              ],
+              "location": "cucumber.stepdefs.OpenMrsStepDefs.address_of_new_patient_is(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      }
+    ],
+    "name": "OpenMRS page login tests",
+    "description": "",
+    "id": "openmrs-page-login-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/OpenMRS.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

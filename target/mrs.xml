@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.38">
+    <testcase classname="EspoCRM Page Verification" name="Validating function names" time="15.851">
+        <system-out><![CDATA[Given user navigates to "https://demo.espocrm.com/?lang=en_US#".............passed
+When the user opens the home page...........................................passed
+Then the user should see the function names.................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

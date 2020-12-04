@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Sentrifugo Runner" parallel="tests" thread-count="3">
+    <test name = "Login Runner Chrome">
+        <parameter name="userName" value="EM01"></parameter>
+        <parameter name="password" value="sentrifugo"></parameter>
+        <parameter name="driverName" value="chrome"></parameter>
+        <classes>
+            <class name="selenium_class.Sentrifugo.Test.LoginTest"></class>
+        </classes>
+    </test>
+ //second one will be failed since we have 2 browsers.
+    <test name = "Login Runner Firefox">
+        <parameter name="userName" value="EM01"></parameter>
+        <parameter name="password" value="sentrifugo"></parameter>
+        <parameter name="driverName" value="firefox"></parameter>
+        <classes>
+            <class name="selenium_class.Sentrifugo.Test.LoginTest"></class>
+        </classes>
+    </test>
+</suite>

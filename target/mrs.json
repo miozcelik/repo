@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-27T23:58:31.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5997900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber_class.stepdefs.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validating function names",
+        "description": "",
+        "id": "espocrm-page-verification;validating-function-names",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "cucumber_class.stepdefs.Hooks.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9096165000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to \"https://demo.espocrm.com/?lang\u003den_US#\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://demo.espocrm.com/?lang\u003den_US#\"",
+                  "offset": 18
+                }
+              ],
+              "location": "cucumber_class.stepdefs.EspoCRMStepDef.user_navigates_to(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1210022200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user opens the home page",
+            "match": {
+              "location": "cucumber_class.stepdefs.EspoCRMStepDef.the_user_opens_the_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5396852900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should see the function names",
+            "match": {
+              "location": "cucumber_class.stepdefs.EspoCRMStepDef.the_user_should_see_the_function_names(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "0",
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10",
+                  "11",
+                  "12",
+                  "13"
+                ]
+              },
+              {
+                "cells": [
+                  "Home",
+                  "Accounts",
+                  "Contacts",
+                  "Leads",
+                  "Opportunities",
+                  "Reports",
+                  "Quotes",
+                  "Sales Orders",
+                  "Invoices",
+                  "Products",
+                  "Emails",
+                  "Cases",
+                  "Calendar",
+                  "Tasks"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@espo"
+          }
+        ]
+      }
+    ],
+    "name": "EspoCRM Page Verification",
+    "description": "",
+    "id": "espocrm-page-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/EspoCRM.feature",
+    "tags": [
+      {
+        "name": "@espo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
