@@ -23,7 +23,7 @@ public class PropertyReader {
 
     }
 
-
+	//
     @Test
     public void test1() throws IOException {
 
